@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf8" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <form action="processa.html" method="POST">
+        <label>Texto</label>
+        <input type="text" placeholder="Digite aqui" name="texto"/>
+        <br>
+
+        <label>Senha</label>
+        <input type="password" name="senha"/>
+        <br>
+
+        <label>Oculto</label>
+        <input type="hidden" name="oculto" value="mensagem oculta"/>
+        <br>
+
+        <label>combobox</label>
+        <select name="combobox">
+            <option value="1">opcao 1</option>
+            <option value="2">opcao 2</option> 
+        </select>
+        
+        <br>
+        <label>radio</label><br>
+        <input type="radio" name="rad1" value="1"> valor 1<br>
+        <input type="radio" name="rad1" value="2"> valor 2<br>
+
+        <label>checkbox</label><br>
+        <input type="checkbox" name="ck1" value="1" checked> valor 1</input><br>
+        <input type="checkbox" name="ck1" value="2" > valor 2</input><br>
+        <input type="checkbox" name="ck1" value="3" > valor 3</input><br>
+
+        <input type="submit" name="submit" value="Enviar"/> 
+    </form>
+    
+</body>
+
+</html>
