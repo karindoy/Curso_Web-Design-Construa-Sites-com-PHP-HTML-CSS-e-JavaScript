@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(48, 74, 75) ;
+}
+
+p{
+    color: rgb(117, 25, 25);
+    background-color: black;
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Helvetica";
+}
