@@ -1,0 +1,11 @@
+alert('asdadadasdad111111');
+/*
+$(document).ready(function(){
+    alert('asdadadasdad');
+});
+$(function(){
+    $('button').click(function(){
+        $('h1').hide();
+    });
+});
+*/
